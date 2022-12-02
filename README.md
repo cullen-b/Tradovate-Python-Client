@@ -1,5 +1,7 @@
 # Tradovate-Python-Client
-This library jumpstarts your ability to make trades with the Tradovate API using Python!
+This library jumpstarts your ability to make trades with the Tradovate API using Python! 
+
+This is not a complete Tradovate API wrapper, it only has the code you need to make trades.
 
 My apologies in advance for using incorrect Python Syntax...
 
