@@ -3,14 +3,18 @@ import requests
 from GetAccessToken import getAccessToken
 
 # Use this to get account ID, and other information
-def getAccountList(token):
+def getAccountList(live, token):
     """Gets a list of all your accounts with Tradovate
 
     Args:
+        live (bool): True for live account, False for demo account
         token (string): your access token
     """
     
-    url = "https://live.tradovateapi.com/v1/account/list"
+    if live:
+        url = "https://live.tradovateapi.com/v1/account/list"
+    else:
+        url = "https://demo.tradovateapi.com/v1/account/list"
 
     header = {
         'Authorization': f'Bearer ${token}', 
@@ -25,5 +29,8 @@ def getAccountList(token):
     print(res.json())
 
 
-#demoToken = getAccessToken(True)[0]
-#getAccountList(demoToken)
+# TEST HERE
+# Live = True for live account, False for demo account
+#live = True
+#token = getAccessToken(live)[0]
+#getAccountList(live, token)

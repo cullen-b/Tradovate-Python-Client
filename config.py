@@ -22,6 +22,7 @@ CID = 0000
 APP_ID = ""
 
 # Tradovate Demo Acc ID
+"""Use GetAccountList.py to get your DEMO & LIVE account IDs"""
 DEMO_ACCOUNT_ID = ""
 
 # Tradovate Live Acc ID
