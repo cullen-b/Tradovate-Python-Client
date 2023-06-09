@@ -9,6 +9,9 @@ Please keep in mind that this is my first repo and I'm still figuring things out
 
 The Tradovate documentation is terrible (they don't even have Python docs) and I know I would've appreciated something like this when I was building my project so I hope it helps you! While building this client I made use of their forums which were helpful but sparse. You can find the forums here: https://community.tradovate.com/c/api-developers/15
 
+# AS OF EARLY 2023 THE CME HATES SMALL TRADERS!!
+In early 2023 the CME started requiring expensive ($400+ /month) licenses for individual traders accesing their data through api's. I'm not sure of the total effect on this api but a lot of tradovate's api connections don't work anymore unless you have the license :(
+
 How to use the client...
 
 Step 1:
